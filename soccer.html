@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport News</title>
+     <!-- add icon link -->
+  <link rel = "icon" href = "techsports.png" type = "image/x-icon"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<header>
+
+        <!-- below is Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <!-- Logo -->
+            <a href="main.html"><img class="logo" src="techsports.png" alt=""></a>
+            <a class="navbar-brand" href="main.html">Sports</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="soccer.html">Soccer <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Basketball</a>
+                </li>
+                      <li class="nav-item">
+                  <a class="nav-link" href="#">Volleyball</a>
+                </li>
+                      <li class="nav-item">
+                  <a class="nav-link" href="#">Tennis</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Golf</a>
+                    <a class="dropdown-item" href="#">Swimming</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Winter Sports</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+</header>
+
+<body style="background-color: #000000;">
+<!-- Header Title-->
+    <header class="brand-banner" >
+      <h1 class="brand-banner__header">
+        <div>Get Informed</div>
+        <div>Get Inspired</div>
+      </h1>
+      <hr style="border: #f52828 solid 3px; width: 15rem;">
+      <p class="brand-banner__subheader">Stories Curated For You</p>
+      <div class="brand-banner__button-wrapper"></div>
+    </header>
+<!-- News List-->
+    <div class="containier-fluid">
+        <div class="row">
+            <div class="col-md-4" id="soccer-div">
+
+                <ul type="none"><br>
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="mls.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">MLS is back Tournament draw
+                            <div><p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon1"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon1"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon1"><p class="share-title">share</p></i>
+                    <li>
+                      <a href="" class="list" >
+                        <div class="li-div">
+                          <img class="highlight-img" src="snooker.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Chinese snooker ace Ding withdraws from Tour Championship
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon2"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon2"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon2"><p class="share-title">share</p></i>
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="football.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Sevilla beat Betis on return of top-flight football to Spain
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon3"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon3"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon3"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="hulk.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Palmeiras cool interest in Shanghai SIPG star Hulk
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon4"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon4"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon4"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="chelsea.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Mind your language! Midfielder Mount's message to Chelsea teammates
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon5"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon5"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon5"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="belgium.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Belgium on top, Morocco 43rd in latest FIFA rankings
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon6"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon6"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon6"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="timo.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Timo time is always score o'clock
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon7"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon7"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon7"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="bayern.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Bayern overcome Frankfurt 2-1 to advance to German Cup final
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon8"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon8"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon8"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="mori.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Argentinian striker Funes Mori tests positive for coronavirus
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon9"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon9"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon9"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="derby.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Goodison gets the OK for June 21st Liverpool derby
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon10"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon10"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon10"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="laliga.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">La Liga returns to action in Spain on Thursday
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li>
+                    <i id="like" class="like-icon11"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon11"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon11"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="fifa.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">ICESCO, FIFA hail sacrifices of healthcare workers against COVID-19
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li> 
+                    <i id="like" class="like-icon12"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon12"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon12"><p class="share-title">share</p></i>
+                   
+                    <li>
+                      <a href="" class="list">
+                        <div class="li-div">
+                          <img class="highlight-img" src="zhang.jpeg" alt="">&nbsp&nbsp
+                          <span class="list">Zhang excited to return in testing times
+                            <p class="date">2020-06-11</p>
+                          </span>
+                        </div>
+                      </a>
+                    </li> 
+                    <i id="like" class="like-icon13"><p class="like-title">like</p></i>
+                    <i id="save" class="save-icon13"><p class="save-title">save</p></i>
+                    <i id="share" class="share-icon13"><p class="share-title">share</p></i>
+                   
+                  </ul>
+                  <footer>
+                <!-- Pagination -->
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#">
+                          Previous
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                </nav>  
+            </footer>
+            </div>
+        </div>
+    </div>
+    <div class="div">
+        <button onclick="topFunction()" class="myBtn" title="Go to top"><i id="arrow"></i></button>
+      </div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport News</title>
+     <!-- add icon link -->
+  <link rel = "icon" href = "techsports.png" type = "image/x-icon"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<header>
+  
+    <!-- below is Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <!-- Logo -->
+      <a href="main.html"><img class="logo" src="techsports.png" alt=""></a>
+      <a class="navbar-brand" href="main.html">Tech Sports</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="soccer.html">Soccer 
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Basketball</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Volleyball</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tennis</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Golf</a>
+              <a class="dropdown-item" href="#">Swimming</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Winter Sports</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+<header class="brand-banner">
+  <h1 class="brand-banner__header">
+    <div>Get Informed</div>
+    <div>Get Inspired</div>
+  </h1>
+  <hr style="border: #f52828 solid 3px; width: 15rem;">
+  <p class="brand-banner__subheader">
+    Stories Curated For You
+  </p>
+  <div class="brand-banner__button-wrapper"></div>
+</header>
+<body style="background-color: #000000;">
+
+
+  <!--First Row -->
+  <div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-3">
+          <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+            <img class="card-imd-top" src="griezmann.jpeg" alt="" style="height: 20rem; width: 20rem;">
+            <div class="card-body">
+              <a href="#" class="list-b">
+              <h4 class="card-title">Griezmann: coronavirus break in football has allowed me to rest</h4>
+              <p class="card-text">MADRID - FC Barcelona striker Antoine Griezmann could be one of the few professional footballers who has welcomed the three-month.</p>
+                </a> 
+                <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon1"><p class="like-title">like</p></i><i id="save" class="save-icon1"><p class="save-title">save</p></i><i id="share" class="share-icon1"><p class="share-title">share</p></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+            <img class="card-imd-top" src="federer.jpeg" alt="" style="height: 20rem; width: 20rem;">
+            <div class="card-body">
+              <a href="#" class="list-b">
+              <h4 class="card-title">Federer to miss rest of 2020 season after knee injury setback</h4>
+              <p class="card-text">BEIJING - Roger Federer will miss the rest of the 2020 season after having a further operation on his right knee, the 20-time Grand Slam winner announced on Wednesday.</p>
+                </a>
+                <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon2"><p class="like-title">like</p></i><i id="save" class="save-icon2"><p class="save-title">save</p></i><i id="share" class="share-icon2"><p class="share-title">share</p></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+              <img class="card-imd-top" src="goldengirls.jpeg" alt="" style="height: 20rem; width: 20rem;">
+              <div class="card-body">
+                <div id='heart' class='button'></div>
+                <a href="#" class="list-b">
+                <h4 class="card-title">Golden girls rising to Tokyo challenge</h4>
+                <p class="card-text">One of Zhu's former teammates, Xu Yunli, says China's biggest challenge in Tokyo is themselves.</p>
+                </a>
+                <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon3"><p class="like-title">like</p></i><i id="save" class="save-icon3"><p class="save-title">save</p></i><i id="share" class="share-icon3"><p class="share-title">share</p></i></div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+<!-- Second Row-->
+<div class="container-fluid padding">
+  <div class="row padding">
+      <div class="col-md-3">
+        <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+          <img class="card-imd-top" src="wada.jpeg" alt="" style="height: 20rem; width: 20rem;">
+          <div class="card-body">
+            <a href="#" class="list-b">
+            <h4 class="card-title">WADA fight resuming full force</h4>
+            <p class="card-text">Yang Yang says battle against cheats back to normal as pandemic abates.</p>
+              </a> 
+              <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon4"><p class="like-title">like</p></i><i id="save" class="save-icon4"><p class="save-title">save</p></i><i id="share" class="share-icon4"><p class="share-title">share</p></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+          <img class="card-imd-top" src="kopo.jpeg" alt="" style="height: 20rem; width: 20rem;">
+          <div class="card-body">
+            <a href="#" class="list-b">
+            <h4 class="card-title">Koponen encourages children to play more than one sport</h4>
+            <p class="card-text">Finnish basketball international Koponen encourages children to play more than one sport.</p>
+              </a>
+              <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon5"><p class="like-title">like</p></i><i id="save" class="save-icon5"><p class="save-title">save</p></i><i id="share" class="share-icon5"><p class="share-title">share</p></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+            <img class="card-imd-top" src="hoops.jpeg" alt="" style="height: 20rem; width: 20rem;">
+            <div class="card-body">
+              <div id='heart' class='button'></div>
+              <a href="#" class="list-b">
+              <h4 class="card-title">Hoops impersonator has all the right moves</h4>
+              <p class="card-text">Most hoops fans worldwide will be familiar with Brandon Armstrong's NBA player impersonations</p>
+              </a>
+              <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon6"><p class="like-title">like</p></i><i id="save" class="save-icon6"><p class="save-title">save</p></i><i id="share" class="share-icon6"><p class="share-title">share</p></i></div>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Third Row-->
+<div class="container-fluid padding">
+  <div  class="row padding">
+      <div id="row" class="col-md-3">
+        <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+          <img class="card-imd-top" src="gym.jpeg" alt="" style="height: 20rem; width: 20rem;">
+          <div class="card-body">
+            <a href="#" class="list-b">
+            <h4 class="card-title">Gyms shaping up to new realities</h4>
+            <p class="card-text">Like most cities across China, life in Lanzhou is starting to resemble normality again as COVID-19 controls ease.</p>
+              </a> 
+              <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon7"><p class="like-title">like</p></i><i id="save" class="save-icon7"><p class="save-title">save</p></i><i id="share" class="share-icon7"><p class="share-title">share</p></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+          <img class="card-imd-top" src="olympic.jpeg" alt="" style="height: 20rem; width: 20rem;">
+          <div class="card-body">
+            <a href="#" class="list-b">
+            <h4 class="card-title">Infected Olympic star 'breathing very badly'</h4>
+            <p class="card-text">Olympic beach volleyball silver medalist Marcio Araujo said on Saturday 
+              that he is battling a severe case of COVID-19 from home after being turned away from overwhelmed 
+              hospitals in Brazil's northeastern city of Fortaleza.</p>
+              </a>
+              <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon8"><p class="like-title">like</p></i><i id="save" class="save-icon8"><p class="save-title">save</p></i><i id="share" class="share-icon8"><p class="share-title">share</p></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card" style="background-color: #000000; height: 25rem; width: 20rem;">
+            <img class="card-imd-top" src="water.jpeg" alt="" style="height: 20rem; width: 20rem;">
+            <div class="card-body">
+              <div id='heart' class='button'></div>
+              <a href="#" class="list-b">
+              <h4 class="card-title">Still waters run deep for reluctant superstar Dressel</h4>
+              <p class="card-text">Introspective American is not your average athlete－in or out of the pool</p>
+              </a>
+              <div><span class="news-date">2 hours ago</span><i id="like" class="like-icon9"><p class="like-title">like</p></i><i id="save" class="save-icon9"><p class="save-title">save</p></i><i id="share" class="share-icon9"><p class="share-title">share</p></i></div>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
+              
+<!-- Back to top Button-->
+<button onclick="topFunction()" class="myBtn" title="Go to top"><i id="arrow"></i></button>
+</div>
+</div>  
+</body>
+</html>
